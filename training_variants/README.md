@@ -1,0 +1,1 @@
+The file `training_variants.tsv` contains the concatenated Exomiser variants TSV output from running the neutral and pathogenic corpora with Exomiser 14.0.0 + 2402 data in FULL_MODE & REVEL, MVP, AlphaMissense. There are added columns of `CAUSATIVE_VARIANT_STATUS` where 0 denotes a neutral variant 
