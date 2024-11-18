@@ -1207,6 +1207,17 @@ docs = ["myst-parser", "pydata-sphinx-theme", "sphinx", "sphinxcontrib-github-al
 test = ["pep440", "pre-commit", "pytest", "testpath"]
 
 [[package]]
+name = "nbimporter"
+version = "0.3.4"
+description = "Import IPython notebooks as modules"
+optional = false
+python-versions = "*"
+files = [
+    {file = "nbimporter-0.3.4-py3-none-any.whl", hash = "sha256:14a4c37fd4a3e18ad5fba726d54f2e46b483dfe31c1f036682bb9ef259ab67a3"},
+    {file = "nbimporter-0.3.4.tar.gz", hash = "sha256:bc9bc803e7ba44ae9f7c6ec60cae2f4d1d509508feedd8c9e03a7949333bf16e"},
+]
+
+[[package]]
 name = "nest-asyncio"
 version = "1.6.0"
 description = "Patch asyncio to allow nested event loops"
@@ -2491,4 +2502,4 @@ scikit-learn = ["scikit-learn"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "b2861115a22a8b7e75c9049399c44dedb4e2ec6105dbf4da6ef9cebdfa058fa5"
+content-hash = "3375ff938ba0c84016553f8174aae46107d4bda4db97a896086c16b5e4a00d1a"
